@@ -17,7 +17,14 @@ npm i -g @nestjs/cli
 ```
 docker-compose up -d
 ```
-5.
+5. Levantar el proyecto con:
+```
+yarn start:dev
+```
+6. Cargar el seed en la base de datos
+```
+http://localhost:3000/api/seed
+```
 
 ## Stack usado
 * Mongodb
