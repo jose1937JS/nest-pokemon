@@ -17,11 +17,13 @@ npm i -g @nestjs/cli
 ```
 docker-compose up -d
 ```
-5. Levantar el proyecto con:
+5. Copiar el archivo __.env.template__ y renombrar la copia a __.env__
+6. LLenar las variables de entorno definidas en __.env__
+7. Levantar el proyecto con:
 ```
 yarn start:dev
 ```
-6. Cargar el seed en la base de datos
+8. Cargar el seed en la base de datos
 ```
 http://localhost:3000/api/seed
 ```
